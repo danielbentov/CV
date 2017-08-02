@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="windows-1255">
+<title>Osnat Malikov CV</title>
+<link rel="stylesheet" type="text/css" href="CV.css"/>
+</head>
+<body>
+   <header class="pic">
+       <button id="cvCircle" type="button" onclick="display('Cv')" >CV</button>
+       <div id="nameCircle">
+       <h1>Osnat Malikov</h1>
+       </div>
+       <button id="contactCircle" type="button" onclick="display('contact')">Contact</button>
+ </header>
+  <section id="contact">
+        <h2>Contact</h2>
+        <div ><div class="CVTitles">Email</div><p>
+                    osnatm1991@gmail.com
+        </p></div>
+        <div ><div class="CVTitles">Phone number</div><p>
+                    0535234773
+        </p></div>
+      
+  </section>
+
+   <section id="Cv">
+        <h2>Osnat Malikov CV </h2>
+      <div ><div class="CVTitles">Basic info</div><p>
+          I'm Osnat Malikov. I'm a student for Computer Science in Ben Gurion university, Be'er Sheva.
+          I have one year left to graduation (two semesters) and I'm looking for a student job.
+          I'm available to work from august tם november on a full time\part time job, and from november I'll be available for part time.
+          I have a good self learning ability and high motivation to work.
+        </p></div>
+
+        <div><div class="CVTitles">Education</div><p>
+          Present-:  Ben Gurion University, B'eer Sheva - Student for Computer Science and middle East studies, B.Sc.<br>
+          2006-2009: Ort Darski high school, Akko - Graduated with honors, Majored in Social Science.
+
+        </p></div>
+
+ <div ><div class="CVTitles">Skills</div>
+          <ul>
+    <li><strong>Languages:</strong> Java, C,TypeScript, Scheme, HTML, CSS, JavaScript, PHP, SQL</li>
+  <li><strong>Libraries:</strong> Bootstrap, JQuery </li>
+  <li> Familiar with ReactJS </li>
+  <li> Experience in multithreading programming, Networking </li>
+  <li>Experience in client - server programming. </li>
+<li>Functional Programming, including – High-order functions ( λ calculus), Continuation Passing Style, etc.</li>
+  <li><strong>Project:<br></strong> Developed a social network website using Bootstrap on client side and PHP on server side. </li>
+
+       </ul>  
+        </div>
+
+
+
+        <div ><div class="CVTitles">Millitary Service</div><p>
+          2010-2012: Computer Technician, Hatzerim, Israeli Air Force <br>
+         Responsibilities:<br>
+         <ul>
+          <li> PC technician-software and OS installation, resolving hardware and software problems <br></li>
+          <li> Helpdesk technician- User Support, managing user accounts using active directory <br></li>
+          <li>night shift team leader</li>
+</ul>
+        </div>
+
+    <div ><div class="CVTitles">Experience as Instructor</div><p>
+          2015-2016: Mathematics Instructor for high school students, "Aharay!" Project.
+        </p></div>
+        <div ><div class="CVTitles">Personal Qualification</div>
+        <ul>
+         <li> Friendly and cooperative, a team player</li>
+         <li>  Autodidact and independent</li>
+         <li> Dedicated, responsible and a hard worker</li>
+    </ul>
+        </div>
+        <div ><div class="CVTitles">Languages</div><p>
+          Hebrew- Native  <br>
+          English- Excellent
+
+        </p></div>
+        
+
+    </section>
+
+
+
+  <script>
+   function display(id){
+       if(id === "Cv"){
+            document.getElementById(id).style.display="block";
+            document.getElementById('contact').style.display="none";
+        }
+
+       else {
+            document.getElementById(id).style.display="block";
+            document.getElementById('Cv').style.display="none";
+          }
+ } 
+  </script>
+</body>
+</html>
